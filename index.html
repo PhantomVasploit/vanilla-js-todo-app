@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body>
+  <main>
+    <div class="top">
+
+      <div class="title">
+        <h1>T O D O</h1>
+        <div class="image">
+          <img src="./images/icon-sun.svg" alt="">
+        </div>
+      </div>
+
+      <div class="data-input">
+        <form method="post" action="" id="formInput">
+          <div class="input-container">
+            <input id="status" type="checkbox" name="" >
+            <input id="todo" autocomplete="off" type="text" class="input-data" placeholder="Create a new todo...">
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="bottom">
+      <div class="data-holder">
+
+        <div class="data" id="data-container"></div>
+        
+        <div class="footer">
+
+          <div class="left">
+            <p id="count">No items</p>
+          </div>
+
+          <div class="middle">
+            <a href="#" id="all">All</a>
+            <a href="#" id="active">Active</a>
+            <a href="#" id="complete">Completed</a>
+          </div>
+
+          <div class="right">
+            <a href="#" id="delete">Clear Completed</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="./app.js" defer></script>
+  
+</body>
+</html>
